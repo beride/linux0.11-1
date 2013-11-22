@@ -1,0 +1,56 @@
+Microsoft (R) Incremental Linker Version 6.00.8168
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+usage: LINK [options] [files] [@commandfile]
+
+   options:
+
+      /ALIGN:#
+      /BASE:{address|@filename,key}
+      /COMMENT:comment
+      /DEBUG
+      /DEBUGTYPE:{CV|COFF}
+      /DEF:filename
+      /DEFAULTLIB:library
+      /DELAY:{NOBIND|UNLOAD}
+      /DELAYLOAD:dll
+      /DLL
+      /DRIVER[:{UPONLY|WDM}]
+      /ENTRY:symbol
+      /EXETYPE:DYNAMIC
+      /EXPORT:symbol
+      /FIXED[:NO]
+      /FORCE[:{MULTIPLE|UNRESOLVED}]
+      /GPSIZE:#
+      /HEAP:reserve[,commit]
+      /IMPLIB:filename
+      /INCLUDE:symbol
+      /INCREMENTAL:{YES|NO}
+      /LARGEADDRESSAWARE[:NO]
+      /LIBPATH:dir
+      /LINK50COMPAT
+      /MACHINE:{ALPHA|ARM|IX86|MIPS|MIPS16|MIPSR41XX|PPC|SH3|SH4}
+      /MAP[:filename]
+      /MAPINFO:{EXPORTS|FIXUPS|LINES}
+      /MERGE:from=to
+      /NODEFAULTLIB[:library]
+      /NOENTRY
+      /NOLOGO
+      /OPT:{ICF[,iterations]|NOICF|NOREF|NOWIN98|REF|WIN98}
+      /ORDER:@filename
+      /OUT:filename
+      /PDB:{filename|NONE}
+      /PDBTYPE:{CON[SOLIDATE]|SEPT[YPES]}
+      /PROFILE
+      /RELEASE
+      /SECTION:name,[E][R][W][S][D][K][L][P][X]
+      /STACK:reserve[,commit]
+      /STUB:filename
+      /SUBSYSTEM:{NATIVE|WINDOWS|CONSOLE|WINDOWSCE|POSIX}[,#[.##]]
+      /SWAPRUN:{CD|NET}
+      /VERBOSE[:LIB]
+      /VERSION:#[.#]
+      /VXD
+      /WARN[:warninglevel]
+      /WINDOWSCE:{CONVERT|EMULATION}
+      /WS:AGGRESSIVE

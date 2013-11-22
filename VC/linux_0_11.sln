@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Documents", "Documents\Documents.vcproj", "{2A8121A8-6C87-4083-B125-CA257810DD0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bootsect", "bootsect.vcproj", "{A3726201-D6C0-4448-95F9-D06CF6C38360}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build", "build.vcproj", "{9265790F-2B8B-43F6-A726-3B6E2F8ED2E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "setup", "setup.vcproj", "{FBB48F02-544A-4356-86A1-85E2F6D48CBF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "system", "system.vcproj", "{9BF52DCC-4F77-4828-A05B-B266AFBA289A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A8121A8-6C87-4083-B125-CA257810DD0D}.Release|Win32.ActiveCfg = Release|Win32
+		{2A8121A8-6C87-4083-B125-CA257810DD0D}.Release|Win32.Build.0 = Release|Win32
+		{A3726201-D6C0-4448-95F9-D06CF6C38360}.Release|Win32.ActiveCfg = Release|Win32
+		{A3726201-D6C0-4448-95F9-D06CF6C38360}.Release|Win32.Build.0 = Release|Win32
+		{9265790F-2B8B-43F6-A726-3B6E2F8ED2E1}.Release|Win32.ActiveCfg = Release|Win32
+		{9265790F-2B8B-43F6-A726-3B6E2F8ED2E1}.Release|Win32.Build.0 = Release|Win32
+		{FBB48F02-544A-4356-86A1-85E2F6D48CBF}.Release|Win32.ActiveCfg = Release|Win32
+		{FBB48F02-544A-4356-86A1-85E2F6D48CBF}.Release|Win32.Build.0 = Release|Win32
+		{9BF52DCC-4F77-4828-A05B-B266AFBA289A}.Release|Win32.ActiveCfg = Release|Win32
+		{9BF52DCC-4F77-4828-A05B-B266AFBA289A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
