@@ -1,0 +1,25 @@
+
+        ML [ /options ] filelist [ /link linkoptions ]
+
+/AT Enable tiny model (.COM file)         /nologo Suppress copyright message
+/Bl<linker> Use alternate linker          /Sa Maximize source listing
+/c Assemble without linking               /Sc Generate timings in listing
+/Cp Preserve case of user identifiers     /Sf Generate first pass listing
+/Cu Map all identifiers to upper case     /Sl<width> Set line width
+/Cx Preserve case in publics, externs     /Sn Suppress symbol-table listing
+/coff generate COFF format object file    /Sp<length> Set page length
+/D<name>[=text] Define text macro         /Ss<string> Set subtitle
+/EP Output preprocessed listing to stdout /St<string> Set title
+/F <hex> Set stack size (bytes)           /Sx List false conditionals
+/Fe<file> Name executable                 /Ta<file> Assemble non-.ASM file
+/Fl[file] Generate listing                /w Same as /W0 /WX
+/Fm[file] Generate map                    /WX Treat warnings as errors
+/Fo<file> Name object file                /W<number> Set warning level
+/FPi Generate 80x87 emulator encoding     /X Ignore INCLUDE environment path
+/Fr[file] Generate limited browser info   /Zd Add line number debug info
+/FR[file] Generate full browser info      /Zf Make all symbols public
+/G<c|d|z> Use Pascal, C, or Stdcall calls /Zi Add symbolic debug info
+/H<number> Set max external name length   /Zm Enable MASM 5.10 compatibility
+/I<name> Add include path                 /Zp[n] Set structure alignment
+/link <linker options and libraries>      /Zs Perform syntax check only
+
